@@ -130,7 +130,7 @@ hr{
     overflow: hidden;
     z-index: -100;
     position: relative;
-    height: 9%;
+    height: 9.5%;
     width: 100%;
     padding-top:50%;
     box-shadow: 0 0 15px;
@@ -177,6 +177,7 @@ hr{
 @media (max-width: 767px) {
     .fullscreen-bg {
         background: url('../video/Trees-Top.jpg') center center / cover no-repeat;
+        height: 5%;
     }
  
     .fullscreen-bg__video {
