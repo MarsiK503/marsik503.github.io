@@ -1,0 +1,227 @@
+@charset "utf-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: #f7f7f7;
+    font-size: 1em;
+    font-family: "Segoe UI", sans-serif;
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+.left{
+    float:left; 
+    margin-top: 20px;
+}
+.right{
+    float: right;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    width: auto\9;
+}
+
+header, footer{
+    width: 98%;
+    background-color: #00CED1;
+    min-height: 60px;
+    float: left;
+}
+
+/*  Шапка сайта */
+
+header{
+    border-bottom: 10px solid #008000;
+    padding: 1%;
+    box-shadow: 0 0 15px;
+}
+
+
+#logo{
+    padding: 5px;
+    font-size: 3em;
+    font-family: Times New Roman, sans-serif;
+    color: #FFFF00;
+    text-shadow: green 2px 2px 0, green -2px -2px 0, 
+                 green -2px 2px 0, green 2px -2px 0;
+    padding-right: 100px;
+    
+}
+
+input[type=text].field{
+    border-radius: 10px;
+    border: 2px solid silver;
+    padding: 5px;
+    margin-left: 20px;
+    width: 370px;
+    float: right
+
+}
+
+input[type=text].field:focus{
+    border: 2px solid green;
+}
+
+.top{
+    width: 100%;
+    height: 250px;
+}
+
+.clear{
+    clear: both;
+}
+
+/*  Меню */
+
+#menu{
+    color: #FFFF00;
+    font-family: Comic Sans MS, sans-serif;
+    font-size: 2.3em;
+    text-shadow: green 1px 1px 0, green -1px -1px 0, 
+                 green -1px 1px 0, green 1px -1px 0;
+}
+
+#menuHrefs a{
+    padding: 5px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    margin-right: 5px;
+    color: #818181;
+}
+
+#menuHrefs a:hover{
+  background: #A5A5A5A5;                   
+}
+
+hr{
+    display: block;
+    border: 0;
+    height: 1px;
+    border-top: 2px solid #ccc;
+    padding: 0;
+}
+
+#menu hr{
+    width: 500px;
+    max-width: 100p%;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Центральный блок сайта */
+
+.fullscreen-bg {
+    overflow: hidden;
+    z-index: -100;
+    position: relative;
+    height: 9.5%;
+    width: 100%;
+    padding-top:50%;
+    box-shadow: 0 0 15px;
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+}
+ 
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+ 
+.overlay {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+ 
+.overlay h1 {
+    text-align:center;
+    color:#fff;
+    font-size: 70px;
+    margin-top:22%;
+    text-shadow: 0 0 50px;
+}
+
+@media (max-width: 767px) {
+    .overlay h1{
+        text-align:center;
+    color:#fff;
+    font-size: 40px;
+    margin-top:22%;
+    text-shadow: 0 0 50px; 
+    }
+}
+    
+
+@media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url('../video/Trees-Top.jpg') center center / cover no-repeat;
+    }
+ 
+    .fullscreen-bg__video {
+        display: none;
+    }
+}
+
+.podv{
+    width: 100%;
+    height: 100px;
+}
+
+/* Стили для футера */
+
+footer{
+    border-top: 10px solid #008000;
+    margin-top: 10px;
+    padding: 1%; 
+}
+
+.social{
+   float: right;
+    padding-top: 1%;
+    padding: 5px;
+     
+}
+
+.social img:hover{
+    background: yellow;
+    border-radius: 20px;
+    transition: opacity .2s ease;
+    opacity: .6;
+    
+}
+
+#page-wrap:after{
+    content: "";
+    display: block;
+}
+
+footer, #page-wrap:after{
+    height: 10px;
+}
+
+#page-wrap{
+    min-height: 94%;
+    margin-bottom: -20px;
+}
