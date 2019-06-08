@@ -177,7 +177,7 @@ hr{
 @media (max-width: 767px) {
     .fullscreen-bg {
         background: url('../video/Trees-Top.jpg') center center / cover no-repeat;
-        height: 1080px;
+        height: 2%;
     }
  
     .fullscreen-bg__video {
