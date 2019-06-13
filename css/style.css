@@ -272,3 +272,10 @@ svg{
     
 }
 
+
+@media (max-width: 767px) {
+    .part {
+     opacity: .3;
+    }
+    
+}
