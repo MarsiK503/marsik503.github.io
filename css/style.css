@@ -272,9 +272,3 @@ svg{
     
 }
 
-@media (max-width: 843px) {
-    .map img{
-        width:  100%;
-    }
-    
-}
