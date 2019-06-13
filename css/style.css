@@ -237,6 +237,37 @@ footer, #page-wrap:after{
     margin-bottom: -20px;
 }
 
+/* Карта */
 .map{
-    padding-left: 20%;
+  position: relative;
+  text-align: center;
 }
+
+svg{
+  position: absolute; 
+    height: 100%;
+    width: 100%;
+    top: -2px;
+    left: 0;
+}
+
+.part{
+    opacity: 0;
+}
+.part:hover{
+    transition: opacity .5s ease;
+    opacity: .6;
+    cursor: pointer;
+}
+
+.city{
+    opacity: 0;
+}
+
+.city:hover{
+    transition: opacity .5s ease;
+    opacity: 1;
+    cursor: pointer;
+    
+}
+
