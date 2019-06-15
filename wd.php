@@ -5,6 +5,7 @@
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="img/map.png" rel="shortcut icon" type="image/x-icon" />
 <title>Интерактивная карта</title> 
+
 <body>
     
 <header>
@@ -19,27 +20,32 @@
             <div id="menuHrefs">
                 <a href="index.html"><b>На главную</b></a>
                 <a href="intkarta.html"><b>Карта</b></a>
-                <a href="#"><b>Контакты</b></a>
+                <a href="contact.html"><b>Контакты</b></a>
                 <a href="#"><b>О нас</b></a>
             </div>
         </center>
     </div> 
- <!-- <div id="page-wrap">-->
-   <div class="fullscreen-bg">
-    
-    <div class="overlay">
-        <h1>Путешествуй по Югре<br>с нами!</h1> 
-    </div>
-    
-    <video loop muted autoplay poster="video/Trees-Top.jpg" class="fullscreen-bg__video">
-        <source src="video/Trees-Top.mp4" type="video/mp4">
-        <source src="video/Trees-Top.webm" type="video/webm">
-    </video>
-    
-    </div>           
-   <!-- </div>-->
+ <!-- <div id="page-wrap">
         
-            
+    </div>-->
+      <main>
+          <main>
+           <h2>Обратная связь</h2>
+           <form name="" action="" method="post">
+               <label>От кого:</label><br />
+               <input type="text" name="from" value="<?=$_SESSION["from"]?>" /><br />
+               <label>Кому:</label><br />
+               <input type="text" name="to" /><br />
+               <label>Тема:</label><br />
+               <input type="text" name="subject" /><br />
+               <label>Сообщение:</label><br />
+               <textarea name="message" cols="30" rows="10"></textarea><br />
+               <input type="submit" name="send" value="Отправить" />
+                   
+           </form>
+       </main>   
+      </main>
+    
       <div class="podv">
         
     </div>

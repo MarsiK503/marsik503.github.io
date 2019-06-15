@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-<link href="img/map.png" rel="shortcut icon" type="image/x-icon" />
+<meta http-equiv="content-type" content="text/html" charset="UTF-8" />
+<link href="/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/img/map.png" rel="shortcut icon" type="image/x-icon" />
 <title>Интерактивная карта</title> 
 <style type="text/css">#tooltip{background:#FFFFFF;border:1px solid #666666;color:#333333;font:menu;margin:10px;padding:3px 5px;position:absolute;visibility:hidden}</style>
 
@@ -12,7 +12,7 @@
 <body>
     
 <header>
-    <a href="index.html" id="logo" alt="На главную" title="На главную">ХМАО-Югра</a><input type="text" class="field" placeholder="Что-то ищете?" />  
+    <a href="index.php" id="logo" alt="На главную" title="На главную">ХМАО-Югра</a><input type="text" class="field" placeholder="Что-то ищете?" />  
 </header>
     <div class="top">
         <div class="clear">
@@ -21,9 +21,9 @@
         <center>
             <div id="menu">Меню<hr /></div>
             <div id="menuHrefs">
-                <a href="index.html"><b>На главную</b></a>
-                <a href="#"><b>Карта</b></a>
-                <a href="#"><b>Контакты</b></a>
+                <a href="index.php"><b>На главную</b></a>
+                <a href="intkarta.php"><b>Карта</b></a>
+                <a href="contact2.php"><b>Контакты</b></a>
                 <a href="#"><b>О нас</b></a>
             </div>
         </center>

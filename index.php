@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-<link href="css/style.css" rel="stylesheet" type="text/css" />
-<link href="img/map.png" rel="shortcut icon" type="image/x-icon" />
+<meta charset="utf-8">
+<link href="/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/www/img/map.png" rel="shortcut icon" type="image/x-icon" />
 <title>Интерактивная карта</title> 
 <body>
     
 <header>
-    <a href="index.html" id="logo" alt="На главную" title="На главную">ХМАО-Югра</a><input type="text" class="field" placeholder="Что-то ищете?" />  
+    <a href="index.php" id="logo" alt="На главную" title="На главную">ХМАО-Югра</a><input type="text" class="field" placeholder="Что-то ищете?" />  
 </header>
     <div class="top">
         <div class="clear">
@@ -17,14 +17,26 @@
         <center>
             <div id="menu">Меню<hr /></div>
             <div id="menuHrefs">
-                <a href="index.html"><b>На главную</b></a>
-                <a href="intkarta.html"><b>Карта</b></a>
-                <a href="#"><b>Контакты</b></a>
+                <a href="index.php"><b>На главную</b></a>
+                <a href="intkarta.php"><b>Карта</b></a>
+                <a href="contact2.php"><b>Контакты</b></a>
                 <a href="#"><b>О нас</b></a>
             </div>
         </center>
     </div> 
- <!-- <div id="page-wrap">-->       
+ <!-- <div id="page-wrap">-->
+   <div class="fullscreen-bg">
+    
+    <div class="overlay1">
+        <h1>Путешествуй по Югре<br>с нами!</h1> 
+    </div>
+    
+    <video loop muted autoplay poster="video/Trees-Top.jpg" class="fullscreen-bg__video">
+        <source src="video/Trees-Top.mp4" type="video/mp4">
+        <source src="video/Trees-Top.webm" type="video/webm">
+    </video>
+    
+    </div>           
    <!-- </div>-->
         
             
